@@ -1,0 +1,132 @@
+export const SkuBuySaleBase = [{
+  label: '仓库',
+  prop: 'warehouseName'
+}, {
+  label: '客户名称',
+  prop: 'customer'
+}, {
+  label: '品类',
+  prop: 'categoryName'
+}, {
+  label: 'SKU',
+  prop: 'productSku'
+}, {
+  label: '产品名称',
+  prop: 'productSkuName'
+}, {
+  label: 'SPU',
+  prop: 'productSpu'
+}, {
+  label: '期初库内良品',
+  prop: 'initialInventory'
+}, {
+  label: '本期已入库良品',
+  prop: 'addInventory'
+}, {
+  label: '本期已出库良品',
+  prop: 'reduceInventory'
+}, {
+  label: '期末库内良品',
+  prop: 'endingInventory'
+}, {
+  label: '货主',
+  prop: 'goodsOwner'
+}, {
+  label: '开始日期',
+  prop: 'startTime',
+  isTemplate: true
+}, {
+  label: '结束日期',
+  prop: 'endTime',
+  isTemplate: true
+}]
+
+export const OutgoingStandingBook = [{
+  label: '仓库',
+  prop: 'warehouseName'
+}, {
+  label: '客户名称',
+  prop: 'customer'
+}, {
+  label: '出库单号',
+  prop: 'orderNum'
+}, {
+  label: '包裹号',
+  prop: 'packageNum'
+}, {
+  label: '发货单号',
+  prop: 'sourceOrderNumber'
+}, {
+  label: '订单类型',
+  prop: 'orderType'
+}, {
+  label: '包裹类型',
+  prop: 'packageType'
+}, {
+  label: 'SKU',
+  prop: 'sku'
+}, {
+  label: '中文名称',
+  prop: 'goodName'
+}, {
+  label: '品类',
+  prop: 'category'
+}, {
+  label: '品质',
+  prop: 'quality'
+}, {
+  label: '出库数量',
+  prop: 'timeNum'
+}, {
+  label: '货主',
+  prop: 'supplier'
+}, {
+  label: '开始日期',
+  prop: 'startTime',
+  isTemplate: true
+}, {
+  label: '结束日期',
+  prop: 'endTime',
+  isTemplate: true
+}]
+
+export const WarehousingStandingBook = [{
+  label: '仓库名称',
+  prop: 'warehouseId'
+}, {
+  label: '客户名称',
+  prop: 'customerName'
+}, {
+  label: '货主',
+  prop: 'goodsOwner'
+}, {
+  label: '入库类型',
+  prop: 'sourceType'
+}, {
+  label: '来源单号',
+  prop: 'sourceId'
+}, {
+  label: 'SKU',
+  prop: 'sku'
+}, {
+  label: '产品名称',
+  prop: 'goodsName',
+  'show-overflow-tooltip': true
+}, {
+  label: '本地分类',
+  prop: 'localType'
+}, {
+  label: '质检商品数',
+  prop: 'qcGoodsNum'
+}, {
+  label: '上架商品数',
+  prop: 'putawayNum'
+}, {
+  label: '开始时间',
+  prop: 'startTime',
+  isTemplate: true
+}, {
+  label: '结束时间',
+  prop: 'endTime',
+  isTemplate: true
+}]

@@ -1,0 +1,119 @@
+.arrival-check {
+    padding-bottom: 15px;
+    .arrival-check .iconfont {
+        font-size: 16px;
+        vertical-align: -2px;
+        
+    }
+    .title-bar-icon {
+        color: #2A8BFF; 
+        cursor: pointer;
+        height:32px;
+        line-height: 32px;
+    }
+    .arrival-check-main {
+        padding: 20px;
+        background: #fff;
+        
+    }
+    .reference-img {
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      }
+    .check-if {
+        display: flex;
+        justify-content : space-between
+    }   
+    .check-left {
+        display: flex;
+    }
+    .cardnum {
+        width: 160px;
+    
+    }
+    .cardnum .el-input__suffix {
+        right:12px;
+    }
+    .ordernum {
+        width: 260px;
+        background-color: #fff;
+    }
+    .select-w {
+        width: 110px;
+    }
+    .lablekind {
+        margin-right: 10px;
+    }
+    .lablekind, .printkind{
+        width: 160px;
+        float: right;
+    }
+    .result-box {
+        height: 32px;
+    }
+    .check-result {
+        background: #F2F4F8;
+        height: 32px;
+        margin-top: 20px;
+        float: left;
+    }
+    .check-result .list-1 {
+        float: left;
+        height: 32px;
+        line-height: 32px;
+        margin-right: 50px;
+    }
+    .list-1 span {
+        color: #666;
+    }
+    .list-1 i {
+        font-weight: normal;
+        font-style: normal;
+        color: #333;
+        margin-left: 2px;
+    }
+    .arrival-head {
+        height: 50px;
+        line-height: 50px;
+        margin-top: 36px;
+        border-bottom: 1px solid#DCDFE6;
+    }
+    .head-name {
+        height: 50px;
+        color: #333;
+        float: left;
+    }
+    .head-handle {
+        float: right;
+        color: #2A8BFF; 
+    }
+    .head-handle .handle-box {
+        float: left;
+        margin-left: 30px;
+        cursor: pointer;
+    }
+    .arrival-list {
+        position: relative;
+    }
+    .arrival-list .table-head {
+        height: 37px;
+        line-height: 37px;
+        color: #333;
+        font-weight: bold;
+    }
+    
+    .arrival-list .goods-img{
+        width: 40px;
+        height: 40px;
+    }
+    .arrival-list .el-table {
+        padding: 0;
+    }
+    .pointer {
+        cursor: pointer;
+    }
+  
+}

@@ -1,0 +1,58 @@
+.menuSetting{
+  .el-select{width: 100%;}
+  .tree-table .el-table__row > td:first-child > .cell{
+    height: auto;
+    line-height: initial;
+    white-space: nowrap;
+  }
+  .el-form-item__label{width: 100px;}
+
+.modifyPwdBox{
+    text-align: center;
+    .dialog-footer{button{display: inline-block;}}
+    .iconyichangp{
+        i.iconyichang{
+            font-size: 80px !important;
+            color: #FFBB43;
+            border: 6px solid #F9DFB9;
+            border-radius: 50%;
+        }
+    }
+}
+.tree-table {
+  border-left: none;
+  overflow-y:auto;
+  .el-table__body-wrapper{
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+  & .el-table__row--level-2 {
+    .el-table__indent:before {
+      width: 45px !important;
+    }
+  }
+}
+
+.table-operation{
+        display: flex;
+        justify-content: space-between;
+        .title{
+            // font-size: 12px;
+            color: #333333;
+            font-weight: bold;
+        }
+        .operation{display: flex;
+            div{margin-right: 30px;
+            cursor: pointer;
+                i{
+                    color: #2A8BFF;
+                    margin-right: 2px;
+                }
+                span{
+                    color: #2A8BFF;
+                    letter-spacing: 0;
+                }
+            }
+        }
+    }  
+}

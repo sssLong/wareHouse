@@ -1,0 +1,86 @@
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    .header-container {
+        .condition {
+            padding-top: 20px;
+            display: flex;
+            align-items: end;
+            margin: 0 20px;
+            .dataTime {
+                height: 32px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            .el-range-editor .el-range-input,
+            .el-input__inner {
+                color: #333333;
+            }
+            .el-select {
+                width: 126px;
+                height: 32px;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            .reset{
+                cursor: pointer;
+            }
+            .receive-man {
+                width: 130px;
+            }
+            &:not(.el-button span) {
+                color: #2A8BFF;
+                line-height: 30px;
+                margin-left: 20px;
+            }
+            .reset {
+                margin-left: 10px;
+                width: 40px;
+                height: 32px;
+                line-height: 32px;
+                cursor: pointer;
+            }
+        }
+    }
+    .table-container {
+        margin: 0 20px;
+        .table-operation {
+            height: 34px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .title {
+                font-weight: 600;
+            }
+            .operation {
+                display: flex;
+                div {
+                    margin-right: 20px;
+                    color: #2A8BFF;
+                    cursor: pointer;
+                }
+                
+            }
+            .back-operation{
+                display: flex;
+                .operation-son{
+                    margin-right: 20px;
+                    color: #2A8BFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .return-box {
+        .el-dialog {
+            width: 480px;
+            .el-dialog__body {
+                .el-input {
+                    width: 240px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}

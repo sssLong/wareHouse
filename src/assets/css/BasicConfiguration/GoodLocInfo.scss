@@ -1,0 +1,32 @@
+.GoodLocContainer {
+    .el-input-group__prepend {
+        width: 64px;
+        border-radius: 17px 0 0 17px;
+    }
+    .el-input-group__append {
+        border-radius: 0 17px 17px 0;
+    }
+    .input-select:not(.customer) {
+        width: 330px;
+        height: 32px;
+    }
+    .form-select {
+        padding: 20px 0 10px;
+    }
+    .table-outer {
+        .title {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ebeef5;
+            padding-bottom: 10px;
+        }
+        .el-button+.el-button {
+            margin-left: 20px;
+        }
+        .titleWork {
+            padding-top: 10px;
+            color: #333333;
+            font-family: PingFangSC-Medium;
+        }
+    }
+}

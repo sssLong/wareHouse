@@ -1,0 +1,49 @@
+.addShipment {
+    .el-input {
+        width: 180px;
+    }
+    .el-table__body-wrapper {
+        overflow-y: auto;
+        height: 420px;
+    }
+    .codeFormitem {
+        .el-input {
+            width: 60px;
+        }
+        .el-input__inner {
+            padding: 0 5px;
+        }
+        .codeInput {
+            display: inline-block;
+            .el-input-group__append,
+            .el-input-group__prepend {
+                padding: 0px;
+                border-right: 0px;
+                border-radius: 0px;
+                color: #333;
+            }
+            .el-input:nth-child(1) {
+                width: 62px;
+                position: relative;
+                margin-left: 2px;
+                // top: -1px;
+                .el-input__inner {
+                    border-right: 0px;
+                }
+            }
+            .el-input:nth-child(2) {
+                width: 50px;
+                position: relative;
+                left: -4px;
+                .el-input__inner {
+                    border-left: 0px;
+                    border-radius: 0 4px 4px 0;
+                }
+            }
+        }
+    }
+    .handle-cont {
+        display: flex;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,52 @@
+.titleSearch{
+  label{
+      span{float: left;}
+      input{width: 126px;}
+  }
+  .attributionWarehouse{
+      background-color: #F5F7FA;
+      border-color: #E4E7ED;
+      color: #999;
+      cursor: not-allowed;
+      border-radius: 4px;
+      border: 1px solid #DCDFE6;
+      box-sizing: border-box;
+      padding: 0 15px;
+      height: 32px;
+      line-height: 32px;
+      margin-top: 2px;
+  }
+}
+.permission-tree-box{
+  overflow-y: scroll;
+  &::-webkit-scrollbar {
+      width: 3px;
+      height: 10px;
+  }
+  &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background: rgba(51, 51, 51, 0.3);
+  }
+}
+.treeBox{
+  ul{
+      display: flex;
+      height: 40px;
+      line-height: 40px;
+      background: #EFF1F5;
+      padding-left: 74px;
+      li{color: #666666 ;margin-right: 132px;}
+  }
+  .el-tree{margin-left:9px;
+      .el-tree-node__children{margin-left: 189px;}
+      [role="treeitem"]:before{border: none;}
+      .el-tree-node__content:after{    width: 143px;left: -144px;border-top: 2px dashed #d2d2d2;}
+      .el-tree-node__content:before{left: -144px;border-left: 2px dashed #d2d2d2;height: 27px !important;margin-top: -19px !important;}
+  }
+  .btnBox{text-align: center;
+      button{width:90px;height: 32px;}
+  }
+  .el-tree-node__content>.el-checkbox{margin-right: 40px;}
+  .el-tree .el-tree-node__content .el-icon-caret-right::before{font-size: 20px;}
+  .el-tree .el-tree-node__content .el-icon-caret-right{left: 30px;right: inherit;}
+}

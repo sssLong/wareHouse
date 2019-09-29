@@ -1,0 +1,66 @@
+.tactics-config {
+  .con-head {
+    height: 20px;
+    line-height: 20px;
+    display: flex;
+    margin: 25px 0 50px 0;
+    padding-left: 30px;
+    .h-item {
+      margin-right: 80px;
+      .lable {
+        color: #666;
+      }
+      .value {
+        color: #333;
+      }
+    }
+  }
+  .tactics-main-box {
+    padding: 0 20px;
+    display: flex;
+    display: -webkit-flex;
+    p {
+      width: 280px;
+      font-weight: bold;
+      padding-bottom: 15px;
+    }
+    .kind-name {
+      width: 300px;
+      padding-right: 20px;
+      p {
+        border-bottom: 1px solid #dcdfe6;
+      }
+      .center-cont {
+        width: 300px;
+        padding-right: 20px;
+
+        overflow-y: scroll;
+      }
+      .tree-btn {
+        text-align: right;
+        margin-top: 10px;
+        .reset {
+          color: #2A8BFF;
+          border: none;
+        }
+      }
+    }
+    .kind-list {
+      margin-left: 37px;
+      .remove {
+        color: #2A8BFF;
+        cursor: pointer;
+        padding: 5px;
+      }
+    }
+  }
+  .error-box {
+    .content {
+      padding: 20px 0;
+      text-align: center;
+      .error-icon {
+        color: #ff4949;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+// =======================入库统计小模块样式 START ==============================
+.statistics-cont {
+    .table-container{
+        .table-operation{
+            .operation{
+                display: flex;
+                div.info{
+                    span{
+                        margin-right: 20px;
+                        color: #666666;
+                        cursor: auto
+                    }
+                }
+                div.export{
+                    span{
+                        color: #2A8BFF;
+                        cursor: pointer;
+                        
+                    }
+                }
+            }
+        }
+    }
+   .header-container .condition .dataTime{
+        width: 380px !important;
+    }
+}
+
+
+
+
+
+
+// =======================入库统计小模块样式 END ================================

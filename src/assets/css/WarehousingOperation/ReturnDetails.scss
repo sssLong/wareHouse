@@ -1,0 +1,82 @@
+.returnDetails {
+  background-color: #fff;
+  border-radius: 4px;
+
+  .title-bar {
+    margin: 0 19px 0 20px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+    border-bottom: 1px solid #dcdfe6;
+
+    .title-bar-name {
+      float: left;
+      font-size: 16px;
+      color: #333;
+      position: relative;
+      margin: 0 0 0 15px;
+      font-weight: bold;
+    }
+
+    .title-bar-name:before {
+      content: "";
+      width: 4px;
+      height: 22px;
+      background: #41b3f9;
+      position: absolute;
+      left: -35px;
+      top: 0px;
+    }
+  }
+
+  .returnDetailsTips {
+    margin-top: 19px;
+    margin: 19px 20px 0 20px;
+
+    div {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 17px;
+
+      p {
+        width: 25%;
+        .title {
+          display: inline-block;
+          color: #666666;
+          min-width: 72px;
+          text-align: right;
+          width: 85px;
+        }
+
+        .main {
+          display: inline-block;
+          color: #333333;
+        }
+      }
+    }
+  }
+
+  .returnDetailsBlock {
+    margin: 20px 20px 0 20px;
+
+    .table-title {
+      color: #333333;
+      height: 36px;
+      line-height: 36px;
+      font-weight: 700;
+    }
+    .el-tabs__nav {
+      margin: 0 20px;
+    }
+
+    .shelfDetailsTable {
+      margin: 0 20px;
+    }
+
+    .abnormalDetailsTable {
+      padding: 0 20px;
+    }
+  }
+}

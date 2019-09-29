@@ -1,0 +1,145 @@
+.shelfList {
+    //上架单列表页
+    background-color: #fff;
+    border-radius: 4px;
+    .title {
+      padding-top: 5px;
+      height: 34px;
+      line-height: 34px;
+    }
+    .search-content {
+      width: 330px;
+      height: 32px;
+      .el-input__inner {
+        font-size: 12px;
+      }
+  
+      .el-input-group__prepend {
+        background-color: rgba(0, 0, 0, 0) !important;
+        border-radius: 32px 0 0 32px !important;
+      }
+  
+      .el-input-group__append {
+        background-color: rgba(0, 0, 0, 0) !important;
+        border-radius: 0 32px 32px 0 !important;
+      }
+  
+      .selectShelf {
+        width: 110px;
+        position: relative;
+        top: -2px;
+  
+        .el-select__caret {
+          line-height: 32px;
+        }
+      }
+  
+      .seachBtn {
+        .el-icon-search {
+          font-size: 18px;
+        }
+      }
+    }
+  
+    .shelfTableBlock {
+      // 上架单列表表格
+      padding: 0 20px;
+      margin-top: 41px;
+      .title {
+        // font-family: PingFangSC-Medium;
+        font-size: 12px;
+        color: #333333;
+        padding-bottom: 10px;
+      }
+  
+      .el-table--border td {
+        border-right: none;
+        border-bottom: none;
+      }
+  
+      .el-table--border th {
+        border-right: none;
+      }
+  
+      .shelfTablePage {
+        text-align: center;
+        margin-top: 23px;
+      }
+  
+      .el-table--border {
+        border: none;
+      }
+  
+      .el-pager li.active {
+        color: #fff;
+        background: #2783e8;
+        border-radius: 50%;
+      }
+  
+      .el-pager {
+        position: relative;
+        top: 5px;
+      }
+  
+      .el-pager li {
+        min-width: 20px;
+        height: 20px;
+        padding: 0;
+        line-height: 20px;
+        margin: 0 10px;
+      }
+    }
+  
+    .shelfSeachFrom {
+      padding: 0 20px;
+      margin-top: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .el-input__inner {
+        height: 32px;
+        line-height: 32px;
+      }
+      .el-input__icon {
+        height: 32px;
+        line-height: 32px;
+      }
+      .line {
+        width: 1px;
+        height: 22px;
+        background: #dcdfe6;
+        display: inline-block;
+        position: relative;
+        top: 5px;
+      }
+  
+      .shelfSeachTimeBlock {
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        margin-right: 10px;
+        .el-date-editor--daterange {
+          width: 275px;
+        }
+  
+        .el-date-editor {
+          padding: 0 10px;
+        }
+      }
+  
+      .shelfSeachSelect {
+        height: 32px;
+        border-radius: 4px;
+        margin-right: 10px;
+      }
+  
+      .queryTimeSelect {
+        width: 110px;
+      }
+  
+      .resetBtn {
+        color: #2A8BFF;
+        font-size: 12px;
+        cursor: pointer;
+      }
+    }
+  }

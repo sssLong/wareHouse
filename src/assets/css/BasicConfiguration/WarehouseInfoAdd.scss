@@ -1,0 +1,44 @@
+.warehouse-information-add {
+    .el-input {
+        width: 180px;
+    }
+    .codeFormitem {
+        .el-input {
+            width: 60px;
+        }
+        .el-input__inner {
+            padding: 0 5px;
+        }
+        .codeInput {
+            display: inline-block;
+            .el-input-group__append,
+            .el-input-group__prepend {
+                padding: 0px;
+                border-right: 0px;
+                border-radius: 0px;
+                color: #333;
+            }
+            .el-input:nth-child(1) {
+                width: 47px;
+                position: relative;
+                top: -1px;
+                .el-input__inner {
+                    border-right: 0px;
+                }
+            }
+            .el-input:nth-child(2) {
+                width: 35px;
+                position: relative;
+                left: -3px;
+                .el-input__inner {
+                    border-left: 0px;
+                    border-radius: 0 4px 4px 0;
+                }
+            }
+        }
+    }
+    .handle-cont {
+        display: flex;
+        justify-content: center;
+    }
+}

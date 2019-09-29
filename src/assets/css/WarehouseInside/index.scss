@@ -1,0 +1,342 @@
+.WarehouseInside {
+  //库内作业-廖佳星
+  // 公用
+  // 弹性盒子
+  .flexBOX {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  //   两端对齐
+  .flexBOXS {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  //   头部搜索框
+  .search-content {
+    width: 335px;
+    height: 32px;
+    margin: auto 0;
+
+    .el-input__inner {
+      height: 32px;
+      line-height: 32px;
+    }
+
+    .el-input-group__prepend {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-radius: 32px 0 0 32px !important;
+    }
+
+    .el-input-group__append {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-radius: 0 32px 32px 0 !important;
+    }
+
+    .selectShelf {
+      width: 105px;
+      position: relative;
+
+      .el-select__caret {
+        line-height: 32px;
+      }
+    }
+  }
+
+  //   重置
+  .resetStyle {
+    min-width: 40px;
+    line-height: 32px;
+    height: 32px;
+    color: #2A8BFF;
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+
+  .Operation {
+    padding-bottom: 10px;
+    div {
+      font-weight: 600;
+    }
+
+    ul > li {
+      float: left;
+      cursor: pointer;
+      color: #2A8BFF;
+    }
+
+    ul > li > i {
+      padding: 0 5px;
+    }
+
+    li + li {
+      margin-left: 10px;
+      padding-left: 20px;
+    }
+  }
+  .orginColor{
+    color: #FF6937;
+  }
+  .blurColor{
+    color: #00A65A;
+  }
+
+  .LossManagement {
+    //损溢管理
+    .el-dialog__body{
+      padding-right: 20px;
+    }
+  }
+
+  .TakeStockPlan {
+    //盘点计划单
+  }
+
+  .TakeStockPlanDetails {
+    //盘点计划单详情页
+  }
+  .TakeStockTask {
+    //盘点任务单
+  }
+
+  .TakeStockTaskDetails {
+    //盘点任务单详情页
+  }
+
+  .TakeStockAdd {
+    //添加盘点单
+    .kuquClass{
+      width: 85px;
+      .el-input__inner{
+        border-right: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+      }
+    }
+    .sousuoClass{
+      max-width: 200px;
+      .el-input__inner{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+      }
+    }
+    .search-content{
+      width: 355px;
+    }
+    .el-input-group>.el-input__inner{
+      width: 190px;
+    }
+  }
+
+  .TakeStockResult {
+    //盘点结果
+  }
+  .TakeStockResultDetails {
+    //盘点单结果详情页
+  }
+  .ErrManagement {
+    //异常管理
+    .errClass {
+      .el-input__inner,
+      .el-textarea__inner {
+        width: 300px;
+      }
+    }
+    .linH24 {
+      line-height: 24px;
+    }
+  }
+  .ErrManagementDetails {
+    //异常管理详情页
+  }
+}
+
+// 首页样式
+.mainIndexBox{
+  width: 100%;
+  height: 100%;
+  background-color: #EEE;
+  display: flex;
+  .oneTitle{border:0px !important;}
+  .messageDetails{
+    table{
+      border-top: 1px solid #ccc;
+      border-left: 1px solid #ccc;
+      tr{
+        line-height: 20px;
+      }
+      td,th {
+        border-bottom: 1px solid #ccc;
+        border-right: 1px solid #ccc;
+        padding: 3px 5px;
+      }
+      th {
+        border-bottom: 2px solid #ccc;
+        text-align: center;
+      }
+      
+    }
+  }
+  //   重置
+  .set {
+    min-width: 40px;
+    line-height: 32px;
+    height: 32px;
+    color: #2A8BFF;
+    padding: 0px 10px;
+    cursor: pointer;
+  }
+  .bgFbr{
+    background-color: #FFF;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .leftBox,.RightBox{
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .leftBox{
+    width: calc(100% - 560px);
+    min-width: 566px;
+    .tableBox{
+      height: calc(100% - 280px);
+    }
+    .disFlx{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 7px;
+      height: 185px;
+      overflow-y: scroll;
+    }
+    .imgBox{
+      flex: 1;
+      min-width:92px;
+      min-height:92px;
+      max-width:92px;
+      max-height:92px;
+      overflow: hidden;
+      border:solid 1px #EEE;
+      position: relative;
+      cursor: pointer;
+      margin:0 0 -2px -2px;
+      transition: all .2s linear 0s;
+      &:hover{
+        z-index: 1;
+        box-shadow: 0 12px 36px rgba(0,0,0,0.1);
+        transform: translate(0,-3px)
+      }
+      img{
+        position: relative;
+        top: -20px;
+        left: -22px;
+      }
+      div{
+        position: absolute;
+        color: #666;
+        font-size: 12px;
+        top: 60px;
+        width: 100%;
+        text-align: center;
+      }
+    }
+    .imgBox:last-child{
+      margin-right: 0px;
+    }
+  }
+  .rightBox{
+    min-width: 540px;
+    .personal{
+      height: 260px;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      .message{
+        width: 240px;
+        padding: 20px;
+        color: #999;
+        vertical-align: middle;
+        p:first-child{
+          font-size: 22px;
+          color: #333;
+          font-weight: 600;
+        }
+      }
+    }
+    .announcement{
+      height: calc(100% - 280px);
+      // 两端对齐
+      .Acontent>li{
+        display: flex;
+        cursor: pointer;
+        padding-left: 10px;
+        line-height: 24px;
+        position: relative;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        &:hover{
+          color: #2A8BFF;
+        }
+      }
+      .Acontent>li.unread:before{
+        content: "";
+		    display: inline-block;
+		    width: 5px;
+		    height: 5px;
+        position: absolute;
+        top: calc(50% - 2.5px);
+        left: 0px;
+        background-color: #FF4949;
+		    border-radius: 5px;
+      }
+      .Acontent>li>div:first-child{
+        width: 320px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+      .Acontent>li>div:last-child{
+        max-width: 140px;
+        overflow: hidden;
+      }
+    }
+  }
+  .setDialog{
+    .el-dialog__body{
+      padding-top: 10px;
+      .bgE{
+        background-color: #EFF1F5;
+        line-height: 40px;
+        padding: 0 20px;
+        margin: 5px 0;
+      }
+      .titleP{
+        span{color: #FF0000;padding: 0px 3px;}
+      }
+      .el-checkbox-group{
+        padding: 0px 20px;
+        .el-checkbox{
+          width: 116px;
+          margin-right: 10px;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          .el-checkbox__label{
+            font-size: 12px !important;
+          }
+          .el-checkbox__input.is-checked+.el-checkbox__label {
+              color: #333;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,122 @@
+// 到货通知-廖佳新
+.arrivalNotice {
+  
+    
+    .title-bar-icon {
+        color: #2A8BFF; 
+        cursor: pointer;
+        height:32px;
+        line-height: 32px;
+    }
+  .bodyBox {
+    margin: 0 20px;
+    
+  }
+  
+  .flexBOX {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+  .create-card {
+      margin-right: 10px;
+  }
+  .flexBOXS {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .seleTime {
+    .el-input:nth-child(1) {
+      width: 130px;
+    }
+  }
+
+  .resetStyle {
+    min-width: 40px;
+    line-height: 32px;
+    height: 32px;
+    color: #2A8BFF;
+    padding: 0px 10px;
+    cursor: pointer;
+    
+  }
+  .resetOther {
+    margin-left: -23px;
+  }
+  .Operation{
+      padding: 20px 20px 10px;
+      div {
+        font-weight: 600;
+      }
+      ul>li{
+          float: left;
+          cursor: pointer;
+          color: #2A8BFF;
+      }
+      ul>li>i{
+        padding: 0 5px;
+      }
+      li+li{
+          margin-left: 10px;
+          padding-left: 20px;
+      }
+  }
+  .ULs>li{
+      display: flex;
+      div:nth-child(1){
+        min-width: 100px;
+        color: #666;
+        text-align: right;
+      }
+      div:nth-child(2) {
+        min-width: 200px;
+        color: #333;
+        text-align: left;
+      }
+  }
+  .width130px{
+    .el-input{
+      width: 130px;
+    }
+    .cardBord.el-input{
+        width: 170px;
+    }
+    .order-input.el-input{
+        width: 160px;
+    }
+  }
+  .signer,.creater {
+      width: 150px;
+  }
+  
+  .bgf2{
+    background-color: #F2F4F8;
+    display: inline-block;
+    line-height: 32px;
+    height: 32px;
+    padding: 0px 40px 0px 20px;
+    border-radius: 4px;
+  }
+  .cor6{
+    color: #666;
+  }
+  .corORG{
+    color: #FF9F21;
+  }
+  .fz16{
+    font-size:16px;
+  }
+  .errDialog{
+    .el-select {
+      width: 100%;
+    }
+  }
+  .bodyBox .cont-item{
+      width: 25%;
+  }
+}

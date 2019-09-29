@@ -1,0 +1,21 @@
+.supplier-info {
+    padding-bottom: 15px;
+    .el-input-group__prepend {
+        width: 78px;
+        border-radius: 17px 0 0 17px;
+    }
+    .el-input-group__append {
+        border-radius: 0 17px 17px 0;
+    }
+    .input-select:not(.customer) {
+        width: 330px;
+        height: 32px;
+    }
+    .form-select {
+        padding: 20px 0;
+    }
+    .detail-btn {
+        color: #2A8BFF;
+        cursor: pointer;
+    }
+}

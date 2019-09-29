@@ -1,0 +1,29 @@
+[0129/121941.715:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: 已尝试访问正在退出的过程。 (0xc000010a)
+[0129/121941.717:ERROR:process_info.cc(329)] VirtualQueryEx: 拒绝访问。 (0x5)
+[0129/121941.717:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0129/121941.719:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0129/121941.719:ERROR:exception_snapshot_win.cc(88)] thread ID 3328 not found in process
+[0226/154738.920:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0226/154738.923:ERROR:exception_snapshot_win.cc(88)] thread ID 10960 not found in process
+[0226/154738.924:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)
+[0319/092637.253:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0319/092637.254:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0319/092637.254:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0402/114851.804:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0402/114851.805:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0402/114851.805:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0402/114851.805:ERROR:exception_snapshot_win.cc(88)] thread ID 2192 not found in process
+[0409/172719.456:ERROR:process_info.cc(329)] VirtualQueryEx: 拒绝访问。 (0x5)
+[0409/172719.460:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0409/172719.463:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0409/172719.463:ERROR:exception_snapshot_win.cc(88)] thread ID 13608 not found in process
+[0409/172719.464:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)
+[0430/154549.528:ERROR:process_info.cc(329)] VirtualQueryEx: 拒绝访问。 (0x5)
+[0430/154549.530:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0430/154549.530:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)
+[0504/163822.750:ERROR:process_info.cc(329)] VirtualQueryEx: 拒绝访问。 (0x5)
+[0504/163822.751:ERROR:process_info.cc(550)] ReadMemoryInfo failed
+[0504/163822.751:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)
+[0506/103212.519:ERROR:process_reader_win.cc(151)] SuspendThread: 拒绝访问。 (0x5)
+[0506/103212.520:ERROR:exception_snapshot_win.cc(88)] thread ID 6432 not found in process
+[0506/103212.520:ERROR:scoped_process_suspend.cc(40)] NtResumeProcess: 已尝试访问正在退出的过程。 (0xc000010a)

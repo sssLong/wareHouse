@@ -1,0 +1,280 @@
+.logistics-freight {
+    color: #333;
+    .inlneBlock{
+        .el-form-item__content{
+            display: flex;
+        }
+    }
+    .area-infor .el-form-item{
+        margin-right: 0px;
+        width: auto;
+    }
+    .iconfont{
+        cursor: pointer;
+    }
+    .title {
+        height: 40px;
+        line-height: 40px;
+        background: #EFF1F5;
+        text-indent: 10px;  
+    } 
+    .el-checkbox__label{
+        font-size: 12px;
+        vertical-align: middle;
+    }
+    .notice {
+        color: #999;
+        margin-left: 10px;
+        font {
+            color: #FF0000;
+        }
+    }
+
+
+    .platform {
+        .select-box {
+            margin: 20px 10px;
+        }
+    }
+    .area-infor {
+        .area-btn {
+            margin: 20px 0;
+        }
+        .bt-save {
+            display: flex;
+            justify-content: center;
+        }
+        .area-list {
+            .area {
+                margin-bottom: 20px;
+                .area-head {
+                    display: flex;
+                    justify-content : space-between;
+                    .area-made {
+                        .add-con {
+                            margin-right: 30px;
+                        }
+                        color: #2A8BFF;
+                    }
+                }
+                .area-country {
+                    &:after{
+                        clear: both;
+                        display: block;
+                        content: '';
+                    }
+                    
+                    .far-area {
+                        float:left;
+                        height: 24px;
+                        line-height: 24px;
+                        background: #F0F2F5;
+                        border-radius: 4px;  
+                        margin:0 10px 10px 0;
+                        cursor: pointer;
+                        span {
+                            padding: 0 12px 0 10px; 
+                        }
+                        i {
+                            padding-right: 12px;
+                        }
+                    }
+                    .far-active{
+                        background: #2A8BFF;
+                        color: #fff;
+                    }
+                    min-height: 46px;
+                    padding: 10px;
+                    margin: 10px 0;
+                    border: 1px solid #DCDFE6;
+                    border-radius: 4px;
+                    
+                }
+                .area-end {
+                    color: #2A8BFF;
+                    text-align: center;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+                .area-detail {
+                    padding: 0 10px;
+                    .w-h {
+                        padding-bottom: 20px;
+                        border-bottom: 1px solid #DCDFE6;
+                    }
+                    .areaInfor {
+                        .attr-list {
+                            padding: 20px 0;
+                            border-bottom: 1px solid #DCDFE6;
+                            
+                        }
+                        .day-ipt {
+                            width: 160px;
+                            .el-input__suffix{
+                                line-height: 32px;
+                            }
+                        }
+                        .len-ipt {
+                            width: 200px;
+                            .el-input__suffix{
+                                line-height: 32px;
+                            }
+                        }
+                        .ji-title {
+                            width: 118px;
+                            display: inline-block
+                        }
+                        .ji-kind {
+                            width: 240px;
+                        }
+                        .w-title {
+                            width: 100px;
+                            margin-left: 76px;
+                            display: inline-block
+                        }
+                        .qi {
+                            margin-left: 57px;
+                        }
+                        .dan {
+                            margin-left: 83px;
+                        }
+                        .b-ipt {
+                            width: 240px;
+                        }
+                        .zhong {
+                            padding: 0 10px;
+                        }
+                        .icon-why{
+                            color: #FF9F21;
+                            font-size: 16px !important;
+                            margin-left: 10px;
+                        }
+                        .d-icon {
+                            color: #2A8BFF;
+                            margin-left: 50px;
+                        }
+                        .far-fen {
+                            display: flex;
+                            justify-content : space-between;
+                            .far-made {
+                                .add-con {
+                                    margin-right: 30px;
+                                }
+                                color: #2A8BFF;
+                            }
+                        }
+                        .far-cont {
+                            border: 1px solid #DCDFE6;
+                            border-radius: 4px;
+                            .far-title {
+                                width: 100px;
+                                margin-left: 11px;
+                                height: 24px;
+                                line-height: 24px;
+                            }
+                            .far-line1 {
+                                display: flex;
+                                padding: 11px 0 20px 0;
+                                
+                                .far-area-box {
+                                    .far-area {
+                                        float:left;
+                                        height: 24px;
+                                        line-height: 24px;
+                                        background: #F0F2F5;
+                                        border-radius: 4px;  
+                                        margin:0 10px 10px 0;
+                                        span {
+                                            padding: 0 12px 0 10px; 
+                                        }
+                                        i {
+                                            padding-right: 12px;
+                                        }
+                                    }
+                                    .area-active{
+                                        background: #2A8BFF;
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            .far-line2 {
+                                display: flex;
+                                padding-bottom: 20px;
+                                .far-title2{
+                                    height: 32px;
+                                    line-height: 32px;
+                                }
+                                .zhong {
+                                    padding-right: 10px;
+                                }
+                                .f-ipt {
+                                    width: 160px;
+                                    margin-right: 20px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .add-head {
+        .add-title {
+            height: 32px;
+            line-height: 32px;
+            width: 80px;
+            float:left;
+            margin-left: 120px;
+        }
+        .add-s {
+            width: 330px;
+        }
+    }
+}
+@media screen and (max-width: 1440px) {
+    .logistics-freight {
+        .el-input__inner {
+            width: 130px;
+        }
+        .el-select .el-input__inner{
+            width: 180px;
+        }
+        .el-input-group__append, .el-input-group__prepend{
+            padding: 0 10px;
+        }
+        .area-infor {
+            .area-list{
+                .area{
+                    .area-detail{
+                        .areaInfor{
+                            .far-cont {
+                                .far-line2 {
+                                    .f-ipt {
+                                        width: 125px;
+                                    }
+                                }
+                            }
+                            
+                            .day-ipt {
+                                width: 130px;
+                            }
+                            .len-ipt {
+                                width: 160px;
+                            }
+                            .ji-kind {
+                                width: 180px;
+                            }
+                            .b-ipt {
+                                width: 130px;
+                            }
+                            .dan {
+                                margin-left: 134px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   
+}

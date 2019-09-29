@@ -1,0 +1,63 @@
+.picking-list-generate {
+  .main-setion {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .transport-way {
+    flex-shrink: 0;
+    width: 280px;
+    border-right: 8px solid #eee;
+    overflow: auto;
+    .title {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }
+  .info-collect {
+    flex-grow: 1;
+    padding-left: 45px;
+    .title {
+      position: relative;
+      font-size: 12px;
+      padding-bottom: 10px;
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #dcdfe6;
+      }
+    }
+  }
+  .form-cont {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    .form-item {
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+    }
+    .el-form-item__label {
+      font-size: 12px;
+    }
+    .sec-item {
+      width: 50%;
+    }
+    .el-input__inner {
+      height: 40px;
+    }
+    .last-form-item {
+      width: 100%;
+      .el-select {
+        width: 100%;
+      }
+    }
+  }
+  .el-form-item {
+    // width: 320px;
+    margin-right: 40px;
+  }
+}

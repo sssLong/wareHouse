@@ -1,0 +1,39 @@
+@import './ReturnReceipt.scss';
+@import './ArrivalNotice.scss';
+@import './shelfList.scss';
+@import './ArrivalCheck.scss';
+@import './ReturnDetails.scss';
+@import './ShelfDetails.scss';
+@import './TacticsConfig.scss';
+
+.search-content {
+    height: 32px;
+
+    .el-input__inner {
+      height: 32px;
+      line-height: 32px;
+    }
+
+    .el-input-group__prepend {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-radius: 32px 0 0 32px !important;
+    }
+
+    .el-input-group__append {
+      background-color: rgba(0, 0, 0, 0) !important;
+      border-radius: 0 32px 32px 0 !important;
+    }
+
+    .selectShelf {
+      width: 100px;
+      position: relative;
+      .el-select__caret {
+        line-height: 32px;
+      }
+      
+    }
+    .selectScan {
+        width: 110px;
+    }
+  
+}

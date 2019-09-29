@@ -1,0 +1,109 @@
+.AdjustmentWarehouse {
+  .header-container{
+    .title-bar-icon{
+      color: #2A8BFF;
+      cursor: pointer;
+      height: 32px;
+      line-height: 32px;
+    }
+  }
+  .table-container {
+    display: flex;
+    .inputw {
+      width: 160px;
+    }
+    .containerLeft {
+        margin-right: 123px;
+        .headerInfo{
+          display: flex;
+        }
+      .productInfo {
+        background: #f0f2f5;
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        width: 472px;
+        line-height: 32px;
+        padding-left: 10px;
+       
+        // display: flex;
+        // div {
+        //   span:nth-child(1) {
+        //     font-size: 12px;
+        //     color: #666666;
+        //     letter-spacing: 0;
+        //   }
+        //   span:nth-child(2) {
+        //     font-size: 12px;
+        //     color: #333333;
+        //     letter-spacing: 0;
+        //   }
+        // }
+      }
+    }
+
+    .containerRight {
+      .selectBox {
+        .selectchange {
+          width: 126px;
+        }
+      }
+      .workstatus {
+        width: 262px;
+        height: 140px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #dcdfe6;
+        border-radius: 4px;
+        .tip{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+        .waiting span{
+          font-size: 14px;
+          color: #999999;
+        }
+
+        .checking span{
+          font-size: 20px;
+          color: #669BF4;
+        }
+
+        .complete span{
+          font-size: 20px;
+          color: #4BD576;
+        }
+      }
+      .workBtn {
+        .btn {
+          background-image: linear-gradient(-180deg, #ffffff 0%, #eeeeee 100%);
+          border: 1px solid #dcdfe6;
+          border-radius: 4px;
+          width: 126px;
+          font-family: PingFangSC-Medium;
+          font-size: 14px;
+          color: #333333;
+          letter-spacing: 0;
+        }
+        .btn:nth-child(1) {
+          .icon {
+            color: #4bd576;
+          }
+        }
+        .btn:nth-child(2) {
+          .icon {
+            color: #ff9f21;
+          }
+        }
+      }
+    }
+  }
+    p.showtoast{
+        text-align: center;
+        font-size: 15px;
+        color: #333333;
+        span{color: #FF9F21 ;}
+    }
+}

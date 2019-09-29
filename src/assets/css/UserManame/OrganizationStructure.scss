@@ -1,0 +1,81 @@
+.organizationBox{
+  .modifyPwdBox {
+  text-align: center;
+  .dialog-footer {
+    button {
+      display: inline-block;
+    }
+  }
+  .tree-table .el-table__row > td:first-child > .cell{
+    height: auto;
+    line-height: initial;
+    
+  }
+  .iconyichangp {
+    i.iconyichang {
+      font-size: 80px !important;
+      color: #ffbb43;
+      border: 6px solid #f9dfb9;
+      border-radius: 50%;
+    }
+  }
+}
+.addPositionName {
+  font-size: 12px;
+  color: #2A8BFF;
+  cursor: pointer;
+  position: absolute;
+  right: 91px;
+  bottom: 136px;
+  z-index: 2;
+  background: #fff;
+  width: 25px;
+    height: 18px;
+}
+.deletePositionName{
+  font-size: 12px;
+  right: 0;
+  color: #2A8BFF;
+  cursor: pointer;
+}
+.el-table__body-wrapper{
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.tree-table {
+  border-left: none;
+  overflow-y:auto;
+  
+  & .el-table__row--level-2 {
+    .el-table__indent:before {
+      width: 45px !important;
+    }
+  }
+}
+.table-operation {
+  display: flex;
+  justify-content: space-between;
+  .title {
+    // font-size: 12px;
+    color: #333333;
+    font-weight: bold;
+  }
+  .operation {
+    display: flex;
+    div {
+      margin-right: 30px;
+      cursor: pointer;
+      i {
+        font-size: 12px;
+        color: #2A8BFF;
+        margin-right: 2px;
+      }
+      span {
+        font-size: 14px;
+        color: #2A8BFF;
+        letter-spacing: 0;
+      }
+    }
+  }
+}
+}

@@ -1,0 +1,41 @@
+.classContainer {
+    .el-table__body-wrapper {
+        overflow-y: auto;
+    }
+    .el-input-group__prepend {
+        width: 64px;
+        border-radius: 17px 0 0 17px;
+    }
+    .el-input-group__append {
+        border-radius: 0 17px 17px 0;
+    }
+    .input-select:not(.customer) {
+        width: 330px;
+        height: 32px;
+    }
+    .form-select {
+        width: 126px;
+        padding: 20px 0 10px;
+    }
+    .el-table__row--level-2 {
+        .el-table__indent {
+            &:before {
+                width: 40px;
+            }
+            &:after {
+                top: -27px;
+                height: 34px;
+            }
+        }
+        .el-table__placeholder {
+            width: 5px;
+        }
+    }
+    .el-table__row:last-child {
+        .cell {
+            &:after {
+                height: 50%!important;
+            }
+        }
+    }
+}

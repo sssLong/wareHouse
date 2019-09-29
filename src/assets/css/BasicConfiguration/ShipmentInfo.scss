@@ -1,0 +1,13 @@
+.base-container {
+    .el-input-group__prepend {
+        width: 64px;
+        border-radius: 17px 0 0 17px;
+    }
+    .el-input-group__append {
+        border-radius: 0 17px 17px 0;
+    }
+    .input-select:not(.customer) {
+        width: 330px;
+        height: 32px;
+    }
+}

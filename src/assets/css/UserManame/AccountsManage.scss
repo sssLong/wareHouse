@@ -1,0 +1,105 @@
+/*
+ * @Author: zhoujianqiang 
+ * @Date: 2019-08-22 09:56:45 
+ * @Last Modified by:   zhoujianqiang 
+ * @Last Modified time: 2019-08-22 09:56:45 
+ */
+
+.AccountsManageBox{
+  .ceatTimeSpan{
+      border: 1px solid #DCDFE6;
+      border-right: none;
+      float: left;
+      border-radius: 4px 0 0 4px;
+      height: 30px;
+      line-height: 30px;
+      padding-left: 10px;
+      // display: inline-block;
+  }
+  .el-date-editor--datetimerange{
+      border-left: none;
+      border-radius: 0 4px 4px 0;
+  }
+  .return-form{
+      .returnFormAddBtn{
+          position: absolute;
+          color: #2A8BFF;
+          top: 16px;
+          right: 47px;
+          cursor: pointer;
+          z-index: 2;
+      }
+      .returnFormDeleteBtn{
+          position: absolute;
+          color: #2A8BFF;
+          top: 7px;
+          right: 89px;
+          cursor: pointer;
+          z-index: 2;
+      }
+      .el-cascader{
+          display: block;
+          line-height: 31px;
+      }
+      .el-input,.el-select,.el-cascader{
+          width: 280px !important;
+      }
+  }
+
+  .relative{
+  position: relative;
+  }
+  .modifyRoleBox{
+      position: relative;
+      .addbtn{
+          position: absolute;
+          color: #2A8BFF;
+          top: 14px;
+          right:47px;
+          cursor: pointer;
+          z-index: 2;
+      }
+      .deleteBtn{
+           position: absolute;
+          color: #2A8BFF;
+          top: 5px;
+          right:100px;
+          cursor: pointer;
+          z-index: 2;
+      }
+  }
+  .modifyPwdBox{
+      text-align: center;
+      .dialog-footer{button{display: inline-block;}}
+      .iconyichangp{
+          i.iconyichang{
+              font-size: 80px !important;
+              color: #FFBB43;
+              border: 6px solid #F9DFB9;
+              border-radius: 50%;
+          }
+      }
+  }
+  .table-operation{
+      display: flex;
+      justify-content: space-between;
+      .title{
+          // font-size: 12px;
+          color: #333333;
+          font-weight: bold;
+      }
+      .operation{display: flex;
+          div{margin-right: 30px;
+          cursor: pointer;
+              i{
+                  color: #2A8BFF;
+                  margin-right: 2px;
+              }
+              span{
+                  color: #2A8BFF;
+                  letter-spacing: 0;
+              }
+          }
+      }
+  }        
+}
